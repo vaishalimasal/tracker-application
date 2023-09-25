@@ -1,0 +1,14 @@
+.sidebarbtn {
+  width: 16rem;
+  height: 3rem;
+  background-color: #28343e;
+  border: none;
+  color: aliceblue;
+}
+/* dropDown.css */
+.language-dropdown-content {
+  position: absolute;
+  bottom: 20%; /* Position above the button */
+  left: 0;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
