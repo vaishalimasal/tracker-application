@@ -1,8 +1,8 @@
 import React from "react";
-import "./projectDetails.css";
+import "./projectBoardWithoutProject.css";
 import underdraw from "../assets/undraw.png";
 
-export default function ProjectDetails() {
+export default function ProjectBoardWithoutProject() {
   return (
     <div className="mainProjectDetails">
       <div className="pDnone">

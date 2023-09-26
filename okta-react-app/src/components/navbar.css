@@ -1,31 +1,31 @@
 .navbar-container {
   height: 5rem;
   background-color: #f7f8fa;
-  width: 80%;
-  position: absolute;
-  top: 0;
-  right: 0;
+  width: 85%;
+  min-width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0rem 1rem;
   border-bottom: 1px solid rgb(175, 166, 166);
-  color: #cfcfcf;
-  margin-left: 0%;
+  color: gray;
+  margin-left: 16%;
+  position: fixed;
+  z-index: 100;
 }
 
 .navbar-container .search {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 3rem;
+  padding: 3rem;
 }
 
-.navbar-container .search img {
+.navbar-container .search svg {
   width: 1.05rem;
   height: 1.05rem;
-  background-color: aqua;
+  margin-right: 0.625rem;
 }
 
 .navbar-container .user {
@@ -55,15 +55,4 @@
   width: 2.5rem;
   border-radius: 18px;
   border: 1px solid black;
-}
-
-.loginLoadernav {
-  margin-left: 5rem;
-  top: 30%;
-  left: 40%;
-  width: 10rem;
-  height: 10rem;
-}
-
-@media screen and (max-width: 768px) {
 }

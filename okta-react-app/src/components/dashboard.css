@@ -1,11 +1,33 @@
+.sidebarMainContainer {
+  display: flex;
+  width: 100%;
+}
+
 .mainContainer {
-  /* --nav:5rem; */
-  display: block;
-  position: absolute;
-  top: 5rem;
-  left: 20%;
-  /* background-color: aquamarine; */
-  width: calc(100% - 20%);
-  height: calc(100% - 5rem);
-  padding: 1rem 2rem 0rem 2rem;
+  width: 85%;
+  margin-left: 14%;
+  padding: 1rem;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebarMainContainer {
+    flex-direction: column;
+  }
+
+  .mainContainer {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .navbar-container {
+    width: 100%;
+    min-width: 0;
+    margin-left: 0;
+  }
 }

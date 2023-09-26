@@ -1,0 +1,32 @@
+.status-bar-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  .status {
+    height: 5.5rem;
+  }
+
+  .todo {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: #ffc107;
+  }
+
+  .testing {
+    background-color: #2650a2;
+  }
+
+  .development {
+    background-color: #fe7912;
+  }
+
+  .completed {
+    background-color: #28a745;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+}

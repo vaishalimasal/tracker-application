@@ -11,12 +11,7 @@ import projectApi from "../apis/projectApi";
 import { useHistory } from "react-router-dom";
 
 import { useDispatch, useSelector } from "react-redux";
-import {
-  getAllProject,
-  setProjects,
-  setSelectProject,
-  setTeamMembers,
-} from "../store/slices/projectSlice";
+import { getAllProject } from "../store/slices/projectSlice";
 
 import "./createProject.css";
 
@@ -55,6 +50,7 @@ const CreateProject = () => {
 
   const handleSubmit = async (
     values: FormValues,
+
     { resetForm }: { resetForm: () => void }
   ) => {
     try {
@@ -64,9 +60,9 @@ const CreateProject = () => {
         projectStartDate: values.startDate + "T12:00:00Z",
         projectEndDate: values.endDate + "T12:00:00Z",
       };
-
+      console.log("Values", values);
       const response = await projectApi.post("/project", projectData);
-
+      console.log("projectData:..", projectData);
       console.log("Project created successfully:", response.data);
 
       resetForm();

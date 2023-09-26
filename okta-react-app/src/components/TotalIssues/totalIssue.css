@@ -1,0 +1,25 @@
+.total-issues {
+  margin-top: 1rem;
+  .tittle {
+    margin-bottom: 1rem;
+  }
+  > h1 {
+    font-size: 4rem;
+    margin-top: 1rem;
+  }
+  .todo {
+    color: #ffc107;
+  }
+
+  .testing {
+    color: #2650a2;
+  }
+
+  .development {
+    color: #fe7912;
+  }
+
+  .completed {
+    color: #28a745;
+  }
+}
