@@ -18,6 +18,8 @@ export default function Dashboard() {
           <Route path="/login/project-details" component={ProjectDetails} />
           <Route path="/login/create-issue" component={CreateIssue} />
           <Route path="/login/create-project" component={CreateProject} />
+          {/* <Route exact path="/issue-details/:id" component={IssueDetails} />
+          <Route exact path="/insights" component={Insights} /> */}
         </Switch>
       </div>
     </div>

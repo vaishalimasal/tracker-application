@@ -1,0 +1,48 @@
+.create-project {
+  margin-top: 2rem;
+}
+.form {
+  margin-top: 1rem;
+}
+
+.form-control {
+  background-color: #f0f0f0;
+  border: none;
+  border-bottom: 2px solid #48494ba1;
+  border-radius: 0;
+}
+.react-select__control {
+  background-color: #f0f0f0 !important;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.text-danger {
+  color: #dc3545;
+  font-size: 12px;
+  margin-top: 0.25rem;
+}
+
+.form-group {
+  /* text-align: center; */
+  margin-top: 0.1rem;
+}
+
+.form-grp-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}

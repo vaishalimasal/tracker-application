@@ -20,7 +20,7 @@ export default function LanguageDropdown() {
         <ClayButton
           displayType="primary"
           onClick={toggleDropdown}
-          className="sidebarbtn"
+          className="dropdownbtn"
         >
           LANGUAGE
         </ClayButton>

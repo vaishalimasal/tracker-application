@@ -19,18 +19,7 @@ const Navbar = () => {
 
         <div className="user">
           <Home />
-          {/* <DropDown
-            trigger={
-              <span className="userid">
-          
-                <img className="navimg" src={profilePicture} alt="img" />
-              </span>
-            }
-          >
-            <DropDown.Item>
-              <ClayButton>Logout</ClayButton>
-            </DropDown.Item>
-          </DropDown> */}
+          <img src={profilePicture} alt="profile" />
         </div>
       </div>
     </>

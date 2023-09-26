@@ -1,9 +1,10 @@
-.sidebarbtn {
+.dropdownbtn {
   width: 16rem;
   height: 3rem;
   background-color: #28343e;
   border: none;
   color: aliceblue;
+  text-align: left;
 }
 /* dropDown.css */
 .language-dropdown-content {

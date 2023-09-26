@@ -1,7 +1,7 @@
 .navbar-container {
   height: 5rem;
   background-color: #f7f8fa;
-  width: 78%;
+  width: 80%;
   position: absolute;
   top: 0;
   right: 0;
@@ -12,7 +12,7 @@
   padding: 0rem 1rem;
   border-bottom: 1px solid rgb(175, 166, 166);
   color: #cfcfcf;
-  margin-left: 15%;
+  margin-left: 0%;
 }
 
 .navbar-container .search {
@@ -33,6 +33,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  color: black;
+  font-weight: bold;
   border-left: 1px solid rgb(175, 166, 166);
 
   justify-content: space-around;
