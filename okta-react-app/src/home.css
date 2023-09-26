@@ -11,3 +11,10 @@
     padding-left: 1rem;
   }
 }
+
+#logout-button {
+  width: auto;
+  height: auto;
+  background-color: aliceblue;
+  font-weight: bold;
+}

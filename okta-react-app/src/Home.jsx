@@ -43,7 +43,7 @@ const Home = () => {
       {/* <Link to="/">Home</Link> | &nbsp; */}
       {/* <Link id="protected" to="/protected">Protected</Link> | &nbsp; */}
         <div className="welcome">
-        , &nbsp;{userInfo.name}!
+        &nbsp;{userInfo.name}! 
         {
         authState.isAuthenticated
           ? <button id="logout-button" type="button" onClick={handleLogout}>Logout</button>

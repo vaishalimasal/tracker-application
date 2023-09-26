@@ -14,6 +14,7 @@ import Dashboard from "./components/Dashboard";
 
 
 
+
 const oktaAuth = new OktaAuth(config.oidc);
 
 const App = () => {
@@ -40,6 +41,7 @@ const App = () => {
         {/* <SecureRoute path="/protected" component={Protected} /> */}
         <SecureRoute path="/login" render={() => <Dashboard/>} />
         <Route path="/login/callback" component={LoginCallback} />
+     
       </Security>
     </div>
   );
