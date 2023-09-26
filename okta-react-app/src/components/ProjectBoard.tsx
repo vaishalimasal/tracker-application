@@ -260,7 +260,7 @@ const ProjectBoard: React.FC = () => {
             <h1 className="project-details-heading">Project Details</h1>
             <Link
               className="link"
-              to={`/insights/${selectedProject.projectID}`}
+              to={`/login/insights/${selectedProject.projectID}`}
             >
               VIEW INSIGHTS
             </Link>

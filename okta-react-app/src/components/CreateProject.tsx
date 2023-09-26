@@ -62,7 +62,7 @@ const CreateProject = () => {
       };
       console.log("Values", values);
       const response = await projectApi.post("/project", projectData);
-      console.log("Vaishali");
+      console.log("projectData:..", projectData);
       console.log("Project created successfully:", response.data);
 
       resetForm();

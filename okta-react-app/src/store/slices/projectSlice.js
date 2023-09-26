@@ -6,7 +6,6 @@ const projectSlice = createSlice({
     selectedProject :{},
     allProject :[],
     teamMembers : []
-  
   },
   reducers: {
     setProjects: (state, action) => {
@@ -18,8 +17,6 @@ const projectSlice = createSlice({
     setTeamMembers:(state,action) =>{
       state.teamMembers = action.payload
     }
-
-
   },
 });
 
