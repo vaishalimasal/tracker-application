@@ -17,7 +17,7 @@ export default function Sidebar() {
   // @ts-ignore
   const handleLinkClick = (value: string) => {
     if (value === "1") {
-      history.push("/login/project-details");
+      history.push("/login/project-board");
     } else if (value === "3") {
       history.push("/login/create-project");
     } else if (value === "2") {

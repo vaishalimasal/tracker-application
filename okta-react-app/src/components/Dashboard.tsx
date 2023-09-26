@@ -2,7 +2,7 @@ import React from "react";
 
 import { Route, Switch } from "react-router-dom";
 import "./dashboard.css";
-import ProjectDetails from "./ProjectDetails";
+import ProjectBoard from "./ProjectBoard";
 import CreateIssue from "./CreateIssue";
 import CreateProject from "./CreateProject";
 import Navbar from "./Nabbar";
@@ -15,7 +15,7 @@ export default function Dashboard() {
       <Navbar />
       <div className="mainContainer">
         <Switch>
-          <Route path="/login/project-details" component={ProjectDetails} />
+          <Route path="/login/project-board" component={ProjectBoard} />
           <Route path="/login/create-issue" component={CreateIssue} />
           <Route path="/login/create-project" component={CreateProject} />
           {/* <Route exact path="/issue-details/:id" component={IssueDetails} />
